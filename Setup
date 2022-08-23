@@ -11,7 +11,7 @@ sudo docker run -d --name homeassistant --privileged --restart=unless-stopped -e
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
 
 #Installing OpenJDK 8:
-	sudo apt-get install openjdk-8-jre-headless -y
+sudo apt-get install openjdk-8-jre-headless -y
 
 #Installing MongoDB:
 echo "deb http://archive.raspbian.org/raspbian buster main contrib non-free rpi" | sudo tee /etc/apt/sources.list.d/raspbian-archive.list
@@ -22,7 +22,7 @@ sudo apt-get install mongodb -y
 sudo systemctl status mongodb.service
 
 #Installing UniFi Network Application:
-#	sudo apt-get install ca-certificates apt-transport-https gnupg -y
+#sudo apt-get install ca-certificates apt-transport-https gnupg -y
 #OR:	
 sudo apt-get install ca-certificates apt-transport-https -y
 	
