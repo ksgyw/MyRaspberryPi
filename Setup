@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install mongodb -y
 
 #OPTION:check if mongodb service is running:
-sudo systemctl status mongodb.service
+#sudo systemctl status mongodb.service
 
 #Installing UniFi Network Application:
 #sudo apt-get install ca-certificates apt-transport-https gnupg -y
