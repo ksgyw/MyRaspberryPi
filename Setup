@@ -8,7 +8,7 @@ sudo apt-get upgrade -y
 sudo curl -sSL https://get.docker.com | sh
 
 # Install HomeAssistant
-sudo docker run -d --name homeassistant --privileged --restart=unless-stopped -e TZ=Asia/Shanghai -v /home/pi/homeassistant:/config --network=host homeassistant/home-assistant
+sudo docker run -d --name homeassistant --privileged --restart=unless-stopped -e TZ=Asia/Shanghai -v /home/mark/homeassistant:/config --network=host homeassistant/home-assistant
 
 # Install OpenMediaVault
 wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
